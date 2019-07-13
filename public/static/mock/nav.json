@@ -1,0 +1,263 @@
+{
+  "headerNavList": [
+    { "title": "Node 相关", "index": "node", "key": "node" },
+    { "title": "ElementUI", "index": "elementui", "key": "elementui" },
+    { "title": "前端框架", "index": "frames", "key": "frames"},
+    { "title": "常用工具", "index": "tools", "key": "tools" },
+    { "title": "前端三剑客", "index": "web", "key": "web"},
+    { "title": "我的备忘录", "index": "memorandum", "key": "memorandum"},
+    { "title": "面试题", "index": "interview", "key": "interview"}
+  ],
+  "asideNavList": {
+    "node": [
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "node-apis",
+        "title": "apis 相关",
+        "key": "node-apis",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "node-fs",
+            "title": "文件系统",
+            "key": "node-fs"
+          }
+        ]
+      },
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "node-frames",
+        "title": "常用搭配框架",
+        "key": "node-frames",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "node-express",
+            "title": "Express 框架",
+            "key": "node-express"
+          }
+        ]
+      },
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "node-auto",
+        "title": "自动化流程工具",
+        "key": "node-auto",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "node-webpack",
+            "title": "Webpack 自动化",
+            "key": "node-webpack"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "node-gulp",
+            "title": "Gulp 自动化",
+            "key": "node-gulp"
+          }
+        ]
+      }
+    ],
+    "elementui": [
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "el-components",
+        "title": "相关组件",
+        "key": "el-components",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "el-component-form",
+            "title": "Form表单",
+            "key": "el-component-form"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "el-component-timepicker",
+            "title": "时间控件",
+            "key": "el-component-timepicker"
+          }
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "common-tools",
+        "title": "常用工具",
+        "key": "common-tools",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "tools-git",
+            "title": "Git 版本工具",
+            "key": "tools-git"
+          }
+        ]
+      }
+    ],
+    "web": [
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "web-javascript",
+        "title": "Javascript 相关",
+        "key": "web-javascript",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "web-es5",
+            "title": "Es5 相关",
+            "key": "web-es5"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "web-es6",
+            "title": "Es6 相关",
+            "key": "web-es6"
+          }
+        ]
+      },
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "web-css",
+        "title": "Css 相关",
+        "key": "web-css",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "web-css",
+            "title": "Css 相关",
+            "key": "web-css"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "web-less",
+            "title": "Less 相关",
+            "key": "web-less"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "web-sass",
+            "title": "Sass 相关",
+            "key": "web-sass"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "web-stylus",
+            "title": "Stylus 相关",
+            "key": "web-stylus"
+          }
+        ]
+      },
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "web-html",
+        "title": "Html 相关",
+        "key": "web-html",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "web-label",
+            "title": "Html 标签",
+            "key": "web-label"
+          }
+        ]
+      }
+    ],
+    "memorandum": [
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "my-memorandum",
+        "title": "我的记录",
+        "key": "my-memorandum",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "memorandum-javascript",
+            "title": "Javascript 相关",
+            "key": "memorandum-javascript"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "memorandum-css",
+            "title": "Css 相关",
+            "key": "memorandum-css"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "memorandum-html",
+            "title": "Html 相关",
+            "key": "memorandum-html"
+          }
+        ]
+      }
+    ],
+    "frames": [
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "frames-vue",
+        "title": "Vue 框架",
+        "key": "frames-vue",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "vue-apis",
+            "title": "apis 相关",
+            "key": "vue-apis"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "vue-derectives",
+            "title": "指令相关",
+            "key": "vue-derectives"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "vue-router",
+            "title": "路由相关",
+            "key": "vue-router"
+          },
+          {
+            "icon": "el-icon-document",
+            "index": "vue-vuex",
+            "title": "vuex 相关",
+            "key": "vue-vuex"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "interview-algorithm",
+        "title": "简单算法",
+        "key": "interview-algorithm",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "algorithm-array",
+            "title": "数组相关",
+            "key": "algorithm-array"
+          }
+        ]
+      },
+      {
+        "icon": "el-icon-folder-opened",
+        "index": "interview-frames",
+        "title": "框架相关",
+        "key": "interview-frames",
+        "children": [
+          {
+            "icon": "el-icon-document",
+            "index": "interview-vue",
+            "title": "VUE 相关",
+            "key": "interview-vue"
+          }
+        ]
+      }
+    ]
+  },
+  "errorCode": 0,
+  "errorMsg": "请求数据成功"
+}
